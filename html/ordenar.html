@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>PasteLike</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='style.css'>
+</head>
+<body>
+    <h1 class="titulo">PasteLike</h1>
+    <form>
+        <div>
+        <label for="Nombre">Nombre completo</label>
+        <input type="text" name="Nombre" id="Nombre">
+        </div>
+        <div>
+            <label for="Correo">Correo electrónico</label><input type="email" name="Correo" id="Correo"><br>
+            <label for="Telefono">Teléfono</label><input type="tel" name="Telefono" id="Telefono"><br>
+        </div>
+        <div>
+            <label for="descripcion">Descripción Gneral del pastel (recuerda ser lo más claro posible, si tenemos dudas, te llamaremos):</label><br>
+            <textarea name="descripcion" id="descripcion"></textarea>
+        </div>
+        <div>
+            Elege sabor(es):<br>
+            <input type="checkbox" name="sabor1" id="sabor1"><label for="sabor1">Sabor 1</label><br>
+            <input type="checkbox" name="sabor2" id="sabor2"><label for="sabor2">Sabor 2</label><br>
+            <input type="checkbox" name="sabor3" id="sabor3"><label for="sabor3">Sabor 3</label><br>
+            <input type="checkbox" name="sabor4" id="sabor4"><label for="sabor4">Sabor 4</label><br>
+        </div>
+
+        <div>
+            Elege la decoración(es):<br>
+            <input type="radio" name="decoracion" id="decoracion1"><label for="decoracion1">Decoración 1</label><br>
+            <input type="radio" name="decoracion" id="decoracion2"><label for="decoracion2">Decoración 2</label><br>
+            <input type="radio" name="decoracion" id="decoracion3"><label for="decoracion3">Decoración 3</label><br>
+            <input type="radio" name="decoracion" id="decoracion4"><label for="decoracion4">Decoración 4</label><br>
+        </div>
+
+        <div>
+            Opción de entrega:<br>
+            <input type="radio" name="entrega" id="recoge"><label for="recoge">Recoger en tienda</label><br>
+            <input type="radio" name="entrega" id="domicilio"><label for="domicilio">Llevar a domicilio</label><br>
+            <label for="fechaentrega">Fecha y hora de entrega preferente:</label><input type="datetime-local" name="fechaentrega" id="fechaentrega">
+        </div>
+
+        <button class="primary">Enviar</button>
+        <button class="secondary">Cancelar</button>
+    </form>
+    <footer>
+        PasteLike, encuéntranos en Calle de la Dulzura Núm 1, Col. Bocadillos Este, Cd. Caramelo, Gto., México. Teléfono <a href="tel:776 877 1545">776 877 1545</a>, Correo <a href="mailto:contacto@pastelike.com">contacto@pastelike.com</a>
+    </footer>
+</body>
+</html>
